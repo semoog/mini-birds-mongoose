@@ -1,5 +1,5 @@
 # mini-birds-mongoose (Part I)
- 
+
 _Goal_: Build a **bird sighting** API in Express using four common CRUD operations in MongoDB using MongoJS.
 
 ## Sample Data
@@ -40,7 +40,7 @@ Note the following, expanded sample data for bird sightings.
 ## Step 1: Clone the repo
 
 Create your Express.js app by cloning this repository.
- 
+
 ## Step 2: Install the NPM modules
 
 ```
@@ -67,9 +67,9 @@ If everything's working, you'll see console output each time you hit your endpoi
 ## Step 4: Start mongod
 
 Start the mongo daemon in a separate terminal window.
- 
+
 ## Step 5: Require and connect to Mongo
-  
+
 Now, require the Mongoose module, and create a database by connecting to it in `server.js`. Name your database `birds-mongoose`.
 
 HINT: [Read the documentation](http://mongoosejs.com/docs/index.html)
@@ -90,7 +90,7 @@ Your schema should:
 Now, define a model for your schema, and add it to the file's exports.
 
 Finally, declare a var for your Sighting model in `server.js`.
- 
+
 ## Step 7: Upgrade 'POST' endpoint to record a sighting
 
 Upgrade your POST endpoint with code to create a sighting document from the `body` of the request, using your Sighting model.
@@ -100,7 +100,7 @@ Use sample data from `sightings.json` in your request body.
 HINT: [Read the documentation for saving with models.](http://mongoosejs.com/docs/models.html)
 
 For steps 7 through 10, test each of your endpoints again.
- 
+
 ## Step 8: Upgrade 'GET' endpoint to retrieve a sighting
 
 Modify the GET endpoint to retrieve all sightings with a given `status`, as stated in the request query.
